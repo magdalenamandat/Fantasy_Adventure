@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09ed1685-b015-4610-a3b9-5866bea5666a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Behaviours/iDamage.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dungeon/Behaviours/iAttack.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dungeon/Behaviours/iCast.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dungeon/Enemy.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dungeon/Equipment/EnemyAttack.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dungeon/Player/Caster.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dungeon/Player/Cleric.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Dungeon/Player/Fighter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/Dungeon/Equipment/EnemyAttackTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Behaviours/iAttack.java" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Behaviours/iAttack.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Behaviours/iCast.java" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Behaviours/iCast.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Enemy.java" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Enemy.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Equipment/EnemyAttack.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Player/Caster.java" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Player/Caster.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Player/Character.java" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Player/Character.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Player/Cleric.java" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Player/Cleric.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Player/Fighter.java" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Player/Fighter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" afterPath="$PROJECT_DIR$/src/main/java/Dungeon/Room.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Dungeon/EnemyTest.java" afterPath="$PROJECT_DIR$/src/test/java/Dungeon/EnemyTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Dungeon/Equipment/EnemyAttackTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Dungeon/Player/CasterTest.java" afterPath="$PROJECT_DIR$/src/test/java/Dungeon/Player/CasterTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Dungeon/Player/ClericTest.java" afterPath="$PROJECT_DIR$/src/test/java/Dungeon/Player/ClericTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Dungeon/Player/FighterTest.java" afterPath="$PROJECT_DIR$/src/test/java/Dungeon/Player/FighterTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Dungeon/RoomTest.java" afterPath="$PROJECT_DIR$/src/test/java/Dungeon/RoomTest.java" />
-    </list>
+    <list default="true" id="09ed1685-b015-4610-a3b9-5866bea5666a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -48,7 +22,7 @@
       <file leaf-file-name="Enemy.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Enemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="485">
               <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -961,7 +935,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -971,12 +944,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1351,7 +1324,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dungeon/Enemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="485">
           <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />

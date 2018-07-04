@@ -1,27 +1,21 @@
 package Dungeon;
 
-public class Room {
-    Enemy enemy;
-    Treasure treasure;
-    Boolean completed;
+import java.util.ArrayList;
 
-    public Room(Enemy enemy,Treasure treasure){
-        this.enemy = enemy;
-        this.treasure = treasure;
-        completed = false;
+public class Room {
+    ArrayList<Enemy> enemy;
+    ArrayList<Treasure> treasure;
+
+    public Room(){
+        enemy = new ArrayList<>();
+        treasure = new ArrayList<>();
     }
 
-    public Enemy getEnemy() {
+    public ArrayList<Enemy> getEnemy() {
         return enemy;
     }
 
-    public Treasure getTreasure() {
+    public ArrayList<Treasure> getTreasure() {
         return treasure;
     }
-//
-//    public String completeRoom(){
-//
-//        {treasure.loot();
-//        return "Room complete!";}
-//    }
 }

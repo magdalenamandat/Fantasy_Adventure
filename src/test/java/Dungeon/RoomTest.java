@@ -4,6 +4,8 @@ import Dungeon.Equipment.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 public class RoomTest {
@@ -17,13 +19,15 @@ public class RoomTest {
     public void setUp(){
         treasure = new Treasure(30, "goblet");
         weapon = new Weapon("stick", 1);
-        enemy = new Enemy("dog", 35555, weapon);
-        room = new Room(enemy, treasure);
+        dog = new Enemy("dog", 35555, weapon);
+        room = new Room();
+
     }
 
     @Test
     public void getEnemy() {
-        assertEquals(enemy, room.getEnemy());
+        room.getEnemy.add(treasure);
+        assertEquals(, room.getEnemy());
     }
 
     @Test
