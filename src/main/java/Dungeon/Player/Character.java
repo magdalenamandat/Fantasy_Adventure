@@ -14,4 +14,16 @@ public abstract class Character {
         this.hp = hp;
         this.loot = new ArrayList<>();
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHp() {
+        return hp;
+    }
+
+    public ArrayList<Treasure> getLoot() {
+        return loot;
+    }
 }

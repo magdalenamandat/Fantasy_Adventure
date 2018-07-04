@@ -21,6 +21,6 @@ public class FamiliarTest {
 
     @Test
     public void getType() {
-
+    assertEquals("rat", familiar.getType());
     }
 }
