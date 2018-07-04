@@ -23,4 +23,5 @@ public class EnemyAttackTest {
     public void getWeapon() {
         assertEquals("Stick", attack.getWeapon());
     }
+
 }
