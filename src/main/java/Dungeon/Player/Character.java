@@ -1,10 +1,12 @@
 package Dungeon.Player;
 
+import Dungeon.Behaviours.iDamage;
+import Dungeon.Equipment.Weapon;
 import Dungeon.Treasure;
 
 import java.util.ArrayList;
 
-public abstract class Character {
+public abstract class Character implements iDamage {
     String name;
     int hp;
     ArrayList<Treasure> loot;
@@ -25,5 +27,8 @@ public abstract class Character {
 
     public ArrayList<Treasure> getLoot() {
         return loot;
+    }
+    public void damage(int damage) {
+        this.hp -= damage;
     }
 }

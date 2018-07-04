@@ -1,6 +1,6 @@
 package Dungeon;
 
-import Dungeon.Equipment.EnemyAttack;
+import Dungeon.Equipment.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,13 +11,13 @@ public class RoomTest {
     Room room;
     Treasure treasure;
     Enemy enemy;
-    EnemyAttack attack;
+    Weapon weapon;
 
     @Before
     public void setUp(){
         treasure = new Treasure(30, "goblet");
-        attack = new EnemyAttack(1, "stick");
-        enemy = new Enemy("dog", 35555, attack);
+        weapon = new Weapon("stick", 1);
+        enemy = new Enemy("dog", 35555, weapon);
         room = new Room(enemy, treasure);
     }
 

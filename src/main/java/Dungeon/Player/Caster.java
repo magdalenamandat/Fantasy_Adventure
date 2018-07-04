@@ -1,9 +1,11 @@
 package Dungeon.Player;
 
+import Dungeon.Behaviours.iCast;
+import Dungeon.Behaviours.iDamage;
 import Dungeon.Equipment.Familiar;
 import Dungeon.Equipment.Spell;
 
-public class Caster extends Character{
+public class Caster extends Character implements iCast{
 
     Spell spell;
     Familiar familiar;
@@ -28,5 +30,9 @@ public class Caster extends Character{
 
     public void setSpell(Spell spell) {
         this.spell = spell;
+    }
+
+    public void cast(iDamage target) {
+        target.damage(spell.getDamage());
     }
 }

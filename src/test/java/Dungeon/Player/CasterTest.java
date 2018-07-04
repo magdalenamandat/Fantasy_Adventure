@@ -1,7 +1,9 @@
 package Dungeon.Player;
 
+import Dungeon.Enemy;
 import Dungeon.Equipment.Familiar;
 import Dungeon.Equipment.Spell;
+import Dungeon.Equipment.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,6 +16,9 @@ public class CasterTest {
     Spell spell1;
     Spell spell2;
     Caster caster;
+    Weapon weapon1;
+    Enemy enemy;
+
 
     @Before
     public void setUp(){
@@ -22,6 +27,8 @@ public class CasterTest {
         spell1 = new Spell("Grease", 5);
         spell2 = new Spell("Wish", 500);
         caster = new Caster("Barry", 20, spell1, familiar1);
+        weapon1 = new Weapon("Stick", 1);
+        enemy = new Enemy("Goblin", 3, weapon1);
     }
 
     @Test
@@ -60,5 +67,17 @@ public class CasterTest {
     public void setFamiliar() {
         caster.setFamiliar(familiar2);
         assertEquals(familiar2, caster.getFamiliar());
+    }
+
+    @Test
+    public void cast() {
+        caster.cast(enemy);
+        assertEquals(-2, enemy.getHp());
+    }
+
+    @Test
+    public void damage() {
+        enemy.attack(caster);
+        assertEquals(19, caster.getHp());
     }
 }

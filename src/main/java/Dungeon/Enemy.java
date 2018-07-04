@@ -1,16 +1,18 @@
 package Dungeon;
 
-import Dungeon.Equipment.EnemyAttack;
+import Dungeon.Behaviours.iAttack;
+import Dungeon.Behaviours.iDamage;
+import Dungeon.Equipment.Weapon;
 
-public class Enemy {
+public class Enemy implements iAttack, iDamage {
     String type;
     int hp;
-    EnemyAttack attack;
+    Weapon weapon;
 
-    public Enemy(String type, int hp, EnemyAttack attack){
+    public Enemy(String type, int hp, Weapon weapon){
         this.type = type;
         this.hp = hp;
-        this.attack = attack;
+        this.weapon = weapon;
     }
 
     public String getType() {
@@ -21,8 +23,15 @@ public class Enemy {
         return hp;
     }
 
-    public EnemyAttack getAttack() {
-        return attack;
+    public Weapon getWeapon() {
+        return weapon;
     }
 
+    public void attack(iDamage target) {
+        target.damage(weapon.getDamage());
+    }
+
+    public void damage(int damage){
+        this.hp = hp -damage;
+    }
 }

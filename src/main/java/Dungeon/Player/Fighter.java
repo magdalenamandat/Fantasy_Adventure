@@ -1,8 +1,10 @@
 package Dungeon.Player;
 
+import Dungeon.Behaviours.iAttack;
+import Dungeon.Behaviours.iDamage;
 import Dungeon.Equipment.Weapon;
 
-public class Fighter extends Character{
+public class Fighter extends Character implements iAttack {
     Weapon weapon;
 
     public Fighter(String name, int hp, Weapon weapon) {
@@ -16,5 +18,9 @@ public class Fighter extends Character{
 
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
+    }
+
+    public void attack(iDamage target) {
+        target.damage(weapon.getDamage());
     }
 }
